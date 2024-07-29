@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  min-width: 0;
+}
+
+input{
+  color-scheme: dark
+}
+
+.rdp-root {
+  --rdp-font-family: inter;
+  --rdp-accent-color: lime; /* Change the accent color to indigo. */
+  /* --rdp-accent-background-color: lime; */ /* Change the accent background color. */
+
+  --rdp-range_start-date-background-color: lime;
+  --rdp-range_middle-background-color: rgb(0, 155, 0);
+  --rdp-range_end-date-background-color:lime;
+
+  --rdp-range_start-color:rgb(1, 43, 1);
+  --rdp-range_middle-color:rgb(1, 43, 1);
+  --rdp-range_end-color:rgb(1, 43, 1);
+}
+
+
